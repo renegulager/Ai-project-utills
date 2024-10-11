@@ -4,15 +4,6 @@ A small set of utillities that i use in regards to my AI data project about look
 scrape-trust.py :
 
 This script uses Selenium and BeautifulSoup to scrape customer reviews from Trustpilot. It collects review details such as title, body, rating, and date for each review and saves them to individual CSV files for each page. The script also implements checkpointing to resume scraping from where it left off.
-Libraries and Dependencies
-
-    time: Used to handle delays between page loads.
-    random: Generates random delays to simulate human behavior and avoid detection.
-    os: Manages file operations for checkpointing.
-    pandas: Handles data storage in CSV format.
-    BeautifulSoup: Parses the HTML content to extract review data.
-    selenium: Automates web interactions.
-    webdriver_manager: Automatically manages the Selenium WebDriver installation.
 
 Main Components
 
